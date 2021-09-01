@@ -11,3 +11,4 @@
 /Users/mayerlevente/Projects/AdventOfCode/Day2/obj/Debug/netcoreapp3.1/Day2.pdb
 /Users/mayerlevente/Projects/AdventOfCode/Day2/obj/Debug/netcoreapp3.1/Day2.genruntimeconfig.cache
 /Users/mayerlevente/Projects/AdventOfCode/Day2/obj/Debug/netcoreapp3.1/Day2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mayerlevente/Projects/AdventOfCode/Day2/obj/Debug/netcoreapp3.1/Day2.csproj.AssemblyReference.cache

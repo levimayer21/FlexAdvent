@@ -24,15 +24,7 @@ namespace Day2
                 int max = int.Parse(split[1]);
                 char must = char.Parse(split[2]);
 
-                int goodLetter = 0;
-
-                for (int j = 0; j < split[3].Length; j++)
-                {
-                    if (split[3][j] == must)
-                    {
-                        goodLetter++;
-                    }
-                }
+                int goodLetter = split[3].Count(x => x == must);
 
                 if (goodLetter >= min && goodLetter <= max)
                 {
