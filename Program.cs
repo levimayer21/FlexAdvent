@@ -9,8 +9,8 @@ namespace Day2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(PassTrueOrNotNum(File.ReadAllLines("source.txt")));
-            Console.WriteLine(PassTrueOrNotIndex(File.ReadAllLines("source.txt")));
+            Console.WriteLine("1. Number of passwords that comply with the policies: " + PassTrueOrNotNum(File.ReadAllLines("source.txt")));
+            Console.WriteLine("2. Number of passwords that comply with the new intepretation of the policies: " + PassTrueOrNotIndex(File.ReadAllLines("source.txt")));
         }
 
         static int PassTrueOrNotNum(IEnumerable<string> list)
